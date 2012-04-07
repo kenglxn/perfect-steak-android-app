@@ -2,4 +2,10 @@
 <resources>
     <string name="app_name">The Perfect Steak</string>
     <string name="launch_sub">Start Cooking</string>
+    <string name="info">
+        This app will help you get a perfectly cooked steak.
+        Simply preheat the grill to 200 degrees Celsius.
+        When the grill is ready throw the steaks on the grill and "Start Cooking"
+    </string>
+    <string name="ok">OK</string>
 </resources>

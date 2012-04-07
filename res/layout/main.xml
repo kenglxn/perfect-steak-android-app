@@ -2,12 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
-              android:layout_height="fill_parent">
+              android:layout_height="fill_parent"
+              android:keepScreenOn="true">
 
-    <Button android:id="@+id/startCookingBtn"
-            android:layout_width="fill_parent"
+    <TextView style="@style/InfoText"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/info"
+              android:layout_marginBottom="77dp"/>
+
+    <Button style="@style/ButtonText"
+            android:id="@+id/startCookingBtn"
+            android:text="@string/launch_sub"
+            android:gravity="center_horizontal"
+            android:background="@drawable/start_cooking"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/launch_sub"/>
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView style="@style/TimerText"
+              android:id="@+id/timer"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"/>
 
 </LinearLayout>
 

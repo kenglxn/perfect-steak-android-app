@@ -3,7 +3,10 @@
           package="net.glxn.android"
           android:versionCode="1"
           android:versionName="1.0">
-    <application android:label="@string/app_name">
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application android:label="@string/app_name"
+                 android:debuggable="true">
         <activity android:name=".Main"
                   android:label="@string/app_name">
             <intent-filter>
@@ -11,6 +14,5 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Timer"/>
     </application>
-</manifest> 
+</manifest>
