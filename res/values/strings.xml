@@ -8,4 +8,6 @@
         When the grill is ready throw the steaks on the grill and "Start Cooking"
     </string>
     <string name="ok">OK</string>
+    <string name="rating_exit_title">Quit?</string>
+    <string name="quit_alert_message">You want to quit?</string>
 </resources>
